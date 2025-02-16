@@ -1,0 +1,1 @@
+Dive deeper into CUDA architecture and execute pytorch operations using CUDA. I learned how threads are launched by wraps, wraps by wrap scheduler, which are within a block, and block is within a grid, how to use Nsight profiling, how to create, utilize also how we can excute pytorch operations using CUDA.
