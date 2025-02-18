@@ -1,4 +1,4 @@
-🔹 1️⃣ Brent-Kung Parallel Prefix Sum Algorithm
+🔹 Brent-Kung Parallel Prefix Sum Algorithm
 
 	•	Prefix Sum (Scan): Computes cumulative sums efficiently.
 	•	Brent-Kung Algorithm: Uses a tree-based approach to perform the scan in O(log N) time.
@@ -6,7 +6,7 @@
 	•	✅ Upsweep (Reduction Phase) → Builds a sum tree by summing adjacent values.
 	•	✅ Downsweep (Distribution Phase) → Uses the sum tree to compute prefix sums.
 
- Used cudaGetDeviceProperties() to analyze GPU capabilities. Important GPU features:
+🔹 Used cudaGetDeviceProperties() to analyze GPU capabilities. Important GPU features:
  
 	•	Max Threads per Block (1024 typical)
 	•	Warp Size (32)
