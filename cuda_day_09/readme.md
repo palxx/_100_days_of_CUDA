@@ -41,7 +41,9 @@ Welcome to the CUDA-powered Flash Attention implementation! This project explore
 
 ## 🎯 Why Flash Attention?
 
-🔹 **Speed**: By leveraging shared memory and optimized tiling, we reduce global memory latency. 🔹 **Memory Efficiency**: Breaking matrices into blocks prevents memory overflow issues common in deep learning. 🔹 **Scalability**: The approach works well even with longer sequences, making it ideal for large-scale transformer models.
+🔹 **Speed**: By leveraging shared memory and optimized tiling, we reduce global memory latency. 
+🔹 **Memory Efficiency**: Breaking matrices into blocks prevents memory overflow issues common in deep learning. 
+🔹 **Scalability**: The approach works well even with longer sequences, making it ideal for large-scale transformer models.
 
 ## 🛠️ Customization & Experiments
 
