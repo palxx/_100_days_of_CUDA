@@ -15,7 +15,7 @@ Welcome to the CUDA-powered Flash Attention implementation! This project explore
 
 1. **Initialization**: The host allocates memory for queries (Q), keys (K), and values (V), and initializes them with random values.
 2. **Device Memory Allocation**: CUDA memory is allocated for all required matrices.
-3. **Kernel Execution**: The CUDA kernel (`flashAttentionForward`) is launched with appropriate grid and block dimensions.
+3. **Kernel Execution**: The CUDA kernel (`cuda_day_09`) is launched with appropriate grid and block dimensions.
 4. **Shared Memory Utilization**: Query, Key, and Value blocks are loaded into shared memory for fast access.
 5. **Attention Computation**:
    - Compute scaled dot-product attention scores.
@@ -27,11 +27,11 @@ Welcome to the CUDA-powered Flash Attention implementation! This project explore
 
 1. **Compile the CUDA program**:
    ```sh
-   nvcc flash_attention.cu -o flash_attention
+   nvcc cuda_day_09.cu -o cuda_day_09
    ```
 2. **Run the executable**:
    ```sh
-   ./flash_attention
+   ./cuda_day_09
    ```
 
 ## 📊 Expected Output
