@@ -108,6 +108,3 @@ nvcc -arch=sm_75 flash_attention.cu -o attention_flash
 - **Support for Multi-Head Attention (MHA)**
 - **Further optimization of memory access patterns**
 - **Implementation of dropout and layer normalization in CUDA**
-
-Would you like to see a benchmark comparison between the two implementations? 🚀
-
