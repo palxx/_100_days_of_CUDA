@@ -1,42 +1,56 @@
-# 🚀 CUDA Day 31: Parallel Reduction using CUDA
+# CUDA Day 31 – Parallel Reduction with CUDA
 
-This project implements a **parallel reduction** operation on a large array using **CUDA**. The goal is to perform an efficient summation of elements in a large array using the GPU. This code demonstrates how reduction can be optimized using shared memory and multiple kernel blocks.
-
----
-
-## 📌 Problem Statement
-
-- Given a large array of floating-point numbers, compute the **sum of all elements** using parallel GPU computation.
+This program implements a **parallel reduction** algorithm in CUDA to compute the sum of a large array using **GPU acceleration**. The reduction is performed using CUDA kernel functions and optimized memory access patterns for better performance.
 
 ---
 
-## 📐 Key Concepts Covered
+## 🔍 Overview
 
-### ✅ Parallel Reduction
-- The array is broken into **segments** processed by CUDA blocks.
-- Each block loads its segment into **shared memory**, performs reduction in **log₂(N)** steps.
-- Partial results are written to `partialSums` array.
-- Final summation is done on CPU for simplicity.
-
-### ✅ Shared Memory
-- Used for fast intra-block communication between threads.
-
-### ✅ Performance Measurement
-- Code includes **CUDA Events** to measure execution time for:
-  - Memory Allocation
-  - Copying to GPU
-  - Kernel Execution
-  - Copying results from GPU
-  - Final Summation
+- Each block performs reduction in parallel using a **binary tree-style summation** technique.
+- Final results (partial sums from blocks) are summed on the CPU.
+- GPU timings are captured using **CUDA events** to evaluate memory transfer and kernel execution performance.
 
 ---
 
-## 📊 Kernel Logic
+## 📂 Files
+- `cuda_day_31.cu`: Contains the full implementation of the CUDA parallel reduction algorithm along with timing and memory operations.
 
-```cpp
-__global__ void reduce_kernel(float* input, float* partialSums, unsigned int N) {
-    // Load two elements per thread and perform first step of reduction
-    // Store intermediate result in shared memory
-    // Use binary tree reduction to sum elements
-    // First thread of each block writes final block sum
-}
+---
+
+## ⚙️ How It Works
+
+### 🔸 Kernel Execution
+- Each thread block processes a **segment of the array**.
+- Reduction is performed inside a kernel using **shared memory** and **strided pairwise summation**.
+
+### 🔸 Memory Transfers
+- Host to Device and Device to Host memory transfers are timed.
+- Device memory allocation and cleanup are included.
+
+### 🔸 Performance Timing
+- Uses `cudaEventRecord` to measure:
+  - Memory allocation time
+  - Memory transfer time (Host ↔ Device)
+  - Kernel execution time
+  - Final result accumulation on CPU
+
+---
+
+## 📌 Key Definitions
+
+| Macro            | Description                                  |
+|------------------|----------------------------------------------|
+| `BLOCK_DIM`      | Number of threads per block (1024)           |
+| `numThreadsBlock`| Number of threads per block used in kernel   |
+| `elePerBlock`    | Elements processed by each block (2 * BLOCK_DIM) |
+| `numBlocks`      | Total blocks required for given N elements   |
+
+---
+
+## 🔢 Sample Output (Printed on Console)
+Allocate Time: 0.127616 ms
+Copy to GPU time: 0.048864 ms
+Partial sums allocation time: 0.012288 ms
+Kernel Execution Time: 0.154496 ms
+Copy from GPU: 0.041152 ms
+Print Partial Sums: 0.008544 ms
