@@ -48,9 +48,9 @@ This program implements a **parallel reduction** algorithm in CUDA to compute th
 ---
 
 ## 🔢 Sample Output (Printed on Console)
-Allocate Time: 0.127616 ms
-Copy to GPU time: 0.048864 ms
-Partial sums allocation time: 0.012288 ms
-Kernel Execution Time: 0.154496 ms
-Copy from GPU: 0.041152 ms
-Print Partial Sums: 0.008544 ms
+1. Allocate Time: 0.127616 ms
+2. Copy to GPU time: 0.048864 ms
+3. Partial sums allocation time: 0.012288 ms
+4. Kernel Execution Time: 0.154496 ms
+5. Copy from GPU: 0.041152 ms
+6. Print Partial Sums: 0.008544 ms
