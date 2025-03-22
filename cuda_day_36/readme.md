@@ -1,7 +1,7 @@
 I am reading the paper "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach" and trying to implement it in CUDA, I keep failing as of now. 
 To understand the schematic and how would i be able to code that is still unclear to me. So I have uploaded this version in pytorch and got output. 
 
-Below is the output of my training for 20 epochs:
+### Below is the output of my training for 20 epochs:
 
 Unique characters: 65
 Starting training...
