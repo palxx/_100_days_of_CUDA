@@ -12,7 +12,7 @@ Epoch 1, Iteration 80/100, Loss: 3.1209
 Epoch 1, Iteration 100/100, Loss: 2.9780
 Epoch 1 completed. Average Loss: 3.3664
 
---- Generated Text at Epoch 1 ---
+### --- Generated Text at Epoch 1 ---
 To be, or not to be: that is the question:
 Wue myodTeCwaIlre?lecbL SeI!e  c?nepMheJag cHfne
 
@@ -26,7 +26,7 @@ Epoch 2, Iteration 80/100, Loss: 2.8811
 Epoch 2, Iteration 100/100, Loss: 2.8294
 Epoch 2 completed. Average Loss: 2.9545
 
---- Generated Text at Epoch 2 ---
+### --- Generated Text at Epoch 2 ---
 To be, or not to be: that is the question:
 
 hk 
@@ -42,7 +42,7 @@ Epoch 3, Iteration 80/100, Loss: 2.7286
 Epoch 3, Iteration 100/100, Loss: 2.8701
 Epoch 3 completed. Average Loss: 2.7657
 
---- Generated Text at Epoch 3 ---
+### --- Generated Text at Epoch 3 ---
 To be, or not to be: that is the question:
 nk.amep tits 'Be te d tsto prqbe wotit ba
 Der whitenei
@@ -55,7 +55,7 @@ Epoch 4, Iteration 80/100, Loss: 2.5285
 Epoch 4, Iteration 100/100, Loss: 2.5742
 Epoch 4 completed. Average Loss: 2.6883
 
---- Generated Text at Epoch 4 ---
+### --- Generated Text at Epoch 4 ---
 To be, or not to be: that is the question:
 Whenkr?
 ThRt nd gho
@@ -71,7 +71,7 @@ Epoch 5, Iteration 80/100, Loss: 2.5785
 Epoch 5, Iteration 100/100, Loss: 2.6514
 Epoch 5 completed. Average Loss: 2.6158
 
---- Generated Text at Epoch 5 ---
+### --- Generated Text at Epoch 5 ---
 To be, or not to be: that is the question:
 Yopbond.
 Drave be Homd.
@@ -84,7 +84,7 @@ Epoch 6, Iteration 80/100, Loss: 2.5132
 Epoch 6, Iteration 100/100, Loss: 2.5716
 Epoch 6 completed. Average Loss: 2.5832
 
---- Generated Text at Epoch 6 ---
+### --- Generated Text at Epoch 6 ---
 To be, or not to be: that is the question:
 Rr gf buttU&
 
@@ -104,7 +104,7 @@ Epoch 7, Iteration 80/100, Loss: 2.7961
 Epoch 7, Iteration 100/100, Loss: 2.5108
 Epoch 7 completed. Average Loss: 2.5433
 
---- Generated Text at Epoch 7 ---
+### --- Generated Text at Epoch 7 ---
 To be, or not to be: that is the question:
 urd Eo s soPougl fes t g an s ve the d
 Fenglcollorar pano morrgh sodathe, :bon; pauy Ioufly ; G i in
@@ -115,7 +115,7 @@ Epoch 8, Iteration 80/100, Loss: 2.4764
 Epoch 8, Iteration 100/100, Loss: 2.5118
 Epoch 8 completed. Average Loss: 2.5083
 
---- Generated Text at Epoch 8 ---
+### --- Generated Text at Epoch 8 ---
 To be, or not to be: that is the question:
 Tg s t t knm me tt I ghZy; thyoofaspcte that ias l? tsthdespot;
 ch t be t nve td wo thdayhRhess so l
@@ -126,7 +126,7 @@ Epoch 9, Iteration 80/100, Loss: 2.4973
 Epoch 9, Iteration 100/100, Loss: 2.5520
 Epoch 9 completed. Average Loss: 2.4999
 
---- Generated Text at Epoch 9 ---
+### --- Generated Text at Epoch 9 ---
 To be, or not to be: that is the question:
 Ou at ou fo t
 Mo,
@@ -143,7 +143,7 @@ Epoch 10, Iteration 80/100, Loss: 2.4790
 Epoch 10, Iteration 100/100, Loss: 2.4261
 Epoch 10 completed. Average Loss: 2.4713
 
---- Generated Text at Epoch 10 ---
+### --- Generated Text at Epoch 10 ---
 To be, or not to be: that is the question:
 B. rothiathourn bipe thaven blee wouthiriaphin
 ave hanobe  thos,
@@ -156,7 +156,7 @@ Epoch 11, Iteration 80/100, Loss: 2.5624
 Epoch 11, Iteration 100/100, Loss: 2.4257
 Epoch 11 completed. Average Loss: 2.4539
 
---- Generated Text at Epoch 11 ---
+### --- Generated Text at Epoch 11 ---
 To be, or not to be: that is the question:
 Tho booo thover fo igo irivinglaco ge mar wnormorow'd! tharot md th ofotoor thor!
 Sod I opo,
@@ -168,7 +168,7 @@ Epoch 12, Iteration 80/100, Loss: 2.3614
 Epoch 12, Iteration 100/100, Loss: 2.4559
 Epoch 12 completed. Average Loss: 2.4391
 
---- Generated Text at Epoch 12 ---
+### --- Generated Text at Epoch 12 ---
 To be, or not to be: that is the question:
 Son an h' the eShiandgorchee l! bu aacow, ang desthasousthothamenDofo ber ee ige,
 Round shard ans yc
@@ -179,7 +179,7 @@ Epoch 13, Iteration 80/100, Loss: 2.3740
 Epoch 13, Iteration 100/100, Loss: 2.5012
 Epoch 13 completed. Average Loss: 2.4360
 
---- Generated Text at Epoch 13 ---
+### --- Generated Text at Epoch 13 ---
 To be, or not to be: that is the question:
 Tictein sedekesth tau tit ke t t to t mereato ile st ste win sot t, n t he to my lod ngis t wiu t to
 Epoch 14, Iteration 20/100, Loss: 2.3714
@@ -189,7 +189,7 @@ Epoch 14, Iteration 80/100, Loss: 2.3675
 Epoch 14, Iteration 100/100, Loss: 2.4079
 Epoch 14 completed. Average Loss: 2.4079
 
---- Generated Text at Epoch 14 ---
+### --- Generated Text at Epoch 14 ---
 To be, or not to be: that is the question:
 dethamisatod,
 I f pond; nothomo cost sthe hind;
@@ -204,7 +204,7 @@ Epoch 15, Iteration 80/100, Loss: 2.3716
 Epoch 15, Iteration 100/100, Loss: 2.3399
 Epoch 15 completed. Average Loss: 2.3825
 
---- Generated Text at Epoch 15 ---
+### --- Generated Text at Epoch 15 ---
 To be, or not to be: that is the question:
 Te cho fo t m mee and e the heachack thThe tethin's'dmecean as s tinI ban,
 Th tond shethey ngehen my
@@ -215,7 +215,7 @@ Epoch 16, Iteration 80/100, Loss: 2.4679
 Epoch 16, Iteration 100/100, Loss: 2.4380
 Epoch 16 completed. Average Loss: 2.3922
 
---- Generated Text at Epoch 16 ---
+### --- Generated Text at Epoch 16 ---
 To be, or not to be: that is the question:
 Thid d!, bur'd d theamhois asasary'e:
 ood mydotue ofo d.
@@ -227,7 +227,7 @@ Epoch 17, Iteration 80/100, Loss: 2.4067
 Epoch 17, Iteration 100/100, Loss: 2.4073
 Epoch 17 completed. Average Loss: 2.3857
 
---- Generated Text at Epoch 17 ---
+### --- Generated Text at Epoch 17 ---
 To be, or not to be: that is the question:
 Natu t f be
 Yoolica tldAf tthoume hate
@@ -240,7 +240,7 @@ Epoch 18, Iteration 80/100, Loss: 2.1896
 Epoch 18, Iteration 100/100, Loss: 2.4359
 Epoch 18 completed. Average Loss: 2.3483
 
---- Generated Text at Epoch 18 ---
+### --- Generated Text at Epoch 18 ---
 To be, or not to be: that is the question:
 TI
 Bupobe tonct.
@@ -252,7 +252,7 @@ Epoch 19, Iteration 80/100, Loss: 2.3395
 Epoch 19, Iteration 100/100, Loss: 2.3747
 Epoch 19 completed. Average Loss: 2.3695
 
---- Generated Text at Epoch 19 ---
+### --- Generated Text at Epoch 19 ---
 To be, or not to be: that is the question:
 ghe t t tho cho t agh yo thy beion he dit ct bh
 Th thenno, Bu y t gho thit, thoake;
@@ -264,7 +264,7 @@ Epoch 20, Iteration 80/100, Loss: 2.4826
 Epoch 20, Iteration 100/100, Loss: 2.3248
 Epoch 20 completed. Average Loss: 2.3686
 
---- Generated Text at Epoch 20 ---
+### --- Generated Text at Epoch 20 ---
 To be, or not to be: that is the question:
 To toKit.
 Thesobeok m!d owo boke-poi! tee s: te u wooke.
