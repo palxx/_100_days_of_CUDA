@@ -1,3 +1,7 @@
+#include "csrgraph.h"
+#include <cuda_runtime.h>
+#include <limits.h>
+#include <stdio.h>
 
 __global__ void bfs_kernel(CSRgraph csrgraph, unsigned int* level, unsigned int* prevFrontier, unsigned int* currFrontier, unsigned int numPrevFrontier,
 unsigned int numCurrFrontier,unsigned int currLevel){
