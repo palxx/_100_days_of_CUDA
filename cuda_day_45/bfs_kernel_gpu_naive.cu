@@ -57,4 +57,13 @@ void bfs_gpu(CSRgraph csrgraph, unsigned int srcVertex, unsigned int* level){
 
   cudaDeviceSynchronize;
   cudaMemcpy(level, level_d, csrgraph_d.numVertices*sizeof(unsigned int), cudamemcpyDeviceToHost);
+
+
+    // Free device memory.
+    cudaFree(csrgraph_d.scrPointers);
+    cudaFree(csrgraph_d.dst);
+    cudaFree(numCurrFrontier_d);
+    cudaFree(level_d);
+    cudaFree(prevFrontier_d);
+    cudaFree(currFrontier_d);
 }
