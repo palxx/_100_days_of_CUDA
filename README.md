@@ -1,4 +1,4 @@
-# 100 Days of CUDAv
+# 100 Days of CUDA
 
 ## **Overview**
 Welcome to my **100 Days of CUDA Challenge**! This journey is all about deepening my understanding of **GPU programming**, optimizing high-performance computations, and translating theoretical concepts into efficient CUDA code. Over the next **100 days**, I will be implementing, experimenting, and optimizing CUDA kernels for a variety of problems, from simple parallel algorithms to advanced deep learning optimizations.
